@@ -4,10 +4,11 @@ import com.hamzath.ProductSpring.domain.Product;
 import com.hamzath.ProductSpring.repo.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Component
+@Service
 public class ProductService {
 
     @Autowired
